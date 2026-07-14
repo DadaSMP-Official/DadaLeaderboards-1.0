@@ -1,0 +1,16 @@
+name: DadaLeaderboards
+version: '1.0.0'
+main: it.dadasmp.leaderboards.DadaLeaderboardsPlugin
+api-version: '1.20'
+author: DadaSMP
+description: Ologrammi top soldi, kill e playtime.
+softdepend: [Vault]
+commands:
+  dadatop:
+    description: Gestisce gli ologrammi classifica.
+    usage: /dadatop <set|remove|update|reload|list> [money|kills|playtime]
+    aliases: [topdada, classifica]
+permissions:
+  dadaleaderboards.admin:
+    description: Permette di creare e gestire le classifiche.
+    default: op
